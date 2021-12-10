@@ -1,0 +1,7 @@
+<app-navbar></app-navbar>
+<app-totalcases [global]="global"></app-totalcases>
+<app-selectcountry 
+[countrydata]="countryswithoutrepition"
+[Selectedcountry]="country"
+(selected)="changeCountry($event)"
+></app-selectcountry>

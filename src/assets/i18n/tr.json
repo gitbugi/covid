@@ -1,0 +1,12 @@
+{
+    "WorldTotalCases": "Dünyada tüm vakalar",
+    "confirmed": "Vaka",
+    "deaths": "Ölü",
+
+    "chooseCountry": "Bir Ülke seciniz",
+
+    "totalConfirmed": "Toplam Vaka",
+    "totalDeaths": "Toplam Ölü",
+    "incident": "Incident",
+    "lastUpdate": "Son Güncellenme"
+}

@@ -1,0 +1,12 @@
+{
+    "WorldTotalCases": "World Total Cases",
+    "confirmed": "CONFIRMED",
+    "deaths": "DEATHS",
+
+    "chooseCountry": "Choose a Country",
+
+    "totalConfirmed": "Total Confirmed",
+    "totalDeaths": "Total Deaths",
+    "incident": "Incident",
+    "lastUpdate": "last Update"
+}

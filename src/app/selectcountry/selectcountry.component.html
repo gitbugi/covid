@@ -1,0 +1,36 @@
+<select class="form-select" aria-label="Default select example" 
+ngModel
+(ngModelChange)="onChange($event)">
+    <option selected>{{'chooseCountry' | translate}}</option>
+    <option *ngFor="let country of countrydata" >
+        {{ country }}
+    </option>
+</select>
+
+<div class="country">
+    <div class="flag">
+        <img src='https://flagcdn.com/{{this.countryshort}}.svg'  width="80" alt="South Africa">
+    </div>
+
+
+    <div class="statisticbox">
+        <div class="statistictxt">
+            <div> <u>{{'totalConfirmed' | translate}}:</u>
+                <div class="confirmed">{{ Selectedcountry.Confirmed | number: '1.0-0'}}</div>
+            </div>
+            <div> <u>{{'totalDeaths' | translate}}:</u>
+                <div class="deaths">{{ Selectedcountry.Deaths | number: '1.0-0'}}</div>
+            </div>
+            <ng-container *ngIf="Selectedcountry.Incident_Rate > 0">
+                <div> <u>{{'incident' | translate}}:</u>
+                    <div class="incident">{{ Selectedcountry.Incident_Rate | number: '1.0-0'}} </div> 
+                </div>
+            </ng-container>
+            <div> <u>{{'lastUpdate' | translate}}:</u> <br> {{ Selectedcountry.Last_Update }} </div>
+        </div>
+        <div class="canvas">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+
+</div>

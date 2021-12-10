@@ -1,0 +1,25 @@
+<div class="total">
+    <h2>{{'WorldTotalCases' | translate}}</h2>
+
+    <p><u> {{'confirmed' | translate}} :</u>  <br>
+        <ng-container *ngIf="global.Confirmed === 0">
+            <div class="spinner-border text-light" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </ng-container>
+        <ng-container *ngIf="global.Confirmed > 0">
+            {{ global.Confirmed | number: '1.0-0' }}
+        </ng-container>
+    </p>
+
+    <p><u>{{'deaths' | translate}}:</u>  <br> 
+        <ng-container *ngIf="global.Deaths === 0">
+            <div class="spinner-border text-light" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </ng-container>
+        <ng-container *ngIf="global.Deaths > 0">
+            {{ global.Deaths | number: '1.0-0'}} 
+        </ng-container>
+    </p>
+</div>
