@@ -1,12 +1,12 @@
 {
-    "WorldTotalCases": "Weltweite Gesamtfälle",
-    "confirmed": "Bestätigte Fälle",
-    "deaths": "Todesfälle",
+    "WorldTotalCases": "a",
+    "confirmed": "b",
+    "deaths": "c",
   
-    "chooseCountry": "Land auswählen",
+    "chooseCountry": "d",
   
-    "totalConfirmed": "Gesamtzahl bestätigter Fälle",
-    "totalDeaths": "Gesamtzahl der Todesfälle",
-    "incident": "Inzidenz",
-    "lastUpdate": "Letzte Aktualisierung am"
+    "totalConfirmed": "e",
+    "totalDeaths": "f",
+    "incident": "g",
+    "lastUpdate": "h"
 }
