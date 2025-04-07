@@ -1,12 +1,12 @@
 {
-    "WorldTotalCases": "Weltweite Corona fälle",
-    "confirmed": "Bestätigt",
-    "deaths": "Gestroben",
-
-    "chooseCountry": "Wählen Sie ein Land aus",
-
-    "totalConfirmed": "Insgesamt Bestätigt",
-    "totalDeaths": "Insgesamt Tote",
+    "WorldTotalCases": "Weltweite Gesamtfälle",
+    "confirmed": "Bestätigte Fälle",
+    "deaths": "Todesfälle",
+  
+    "chooseCountry": "Land auswählen",
+  
+    "totalConfirmed": "Gesamtzahl bestätigter Fälle",
+    "totalDeaths": "Gesamtzahl der Todesfälle",
     "incident": "Inzidenz",
     "lastUpdate": "Letzte Aktualisierung"
 }
