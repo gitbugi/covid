@@ -11,7 +11,8 @@ export class HttpService {
 
   countys = [];
 
-  url = "assets/statistik.json"; // "https://coronavirus.m.pipedream.net/";
+  url = "assets/statistik.json"; 
+  // "https://coronavirus.m.pipedream.net/";
 
   getglobal(): Observable<any> {
     return this.http.get<any>(this.url)
